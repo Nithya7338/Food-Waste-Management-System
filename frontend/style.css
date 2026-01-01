@@ -25,5 +25,22 @@ button{
 
 }
 button:hover{
-    background-color: palevioletred;
+    background-color: rgb(229, 96, 140);
+}
+
+.container {
+    background-color: rgba(red, green, blue, alpha);
+    width:60%;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 10px;
+}
+.buttons{
+    margin-top: 30px;
+
+}
+footer{
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
 }
