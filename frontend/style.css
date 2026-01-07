@@ -69,3 +69,8 @@ label{
 input{
     width: 300px;
 }
+.error{
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

@@ -1,12 +1,20 @@
 function loginUser(){
     var email=document.getElementById("loginEmail").value;
     var password=document.getElementById("loginPassword").value;
-    if(email===""||password===""){
-        alert("Please fill all the fields before submission");
+    document.getElementById("emailError").innerText="";
+    document.getElementById("passwordError").innerText="";
+
+    if(email ===""){
+        document.getElementById("emailError").innerText="Email is required";
+
     }
-    else{
-        alert("Login successful(frontend validation)");
+    if(password ===""){
+        document.getElementById("passwordError").innerText="Password is required";
     }
+    if(email!=="" && password!==""){
+        alert("Login Successful");
+    }
+
 }
 function registerUser(){
     var name=document.getElementById("regName").value;
